@@ -331,30 +331,6 @@ Redis 7          -> localhost:6379
 Elasticsearch 8  -> localhost:9200
 ```
 
-## 📋 Variáveis de Ambiente (.env)
-
-```env
-# JWT
-JWT_SECRET=sua-chave-secreta-muito-longa-e-complexa
-JWT_EXPIRATION=86400000
-JWT_REFRESH_EXPIRATION=604800000
-
-# Database
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=ecommerce_db
-DB_USER=ecommerce_user
-DB_PASSWORD=sua-senha-segura
-
-# MongoDB
-MONGO_URI=mongodb://user:pass@localhost:27017/ecommerce_db
-
-# Redis
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_PASSWORD=sua-senha-redis
-```
-
 ## 🛠️ Troubleshooting
 
 ### Erro: "Connection refused" no PostgreSQL
